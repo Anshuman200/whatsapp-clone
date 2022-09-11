@@ -1,0 +1,54 @@
+[debug] [2022-09-11T08:26:42.628Z] ----------------------------------------------------------------------
+[debug] [2022-09-11T08:26:42.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-11T08:26:42.632Z] CLI Version:   11.8.1
+[debug] [2022-09-11T08:26:42.632Z] Platform:      win32
+[debug] [2022-09-11T08:26:42.633Z] Node Version:  v16.13.2
+[debug] [2022-09-11T08:26:42.634Z] Time:          Sun Sep 11 2022 13:56:42 GMT+0530 (India Standard Time)
+[debug] [2022-09-11T08:26:42.635Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-11T08:26:42.736Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-11T08:26:42.736Z] > authorizing via signed-in user (ansh.official03@gmail.com)
+[debug] [2022-09-11T08:26:42.737Z] [iam] checking project whatsapp-clone-c57de for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-11T08:26:42.740Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions [none]
+[debug] [2022-09-11T08:26:42.741Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions x-goog-quota-user=projects/whatsapp-clone-c57de
+[debug] [2022-09-11T08:26:42.741Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-11T08:27:58.372Z] ----------------------------------------------------------------------
+[debug] [2022-09-11T08:27:58.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-11T08:27:58.376Z] CLI Version:   11.8.1
+[debug] [2022-09-11T08:27:58.376Z] Platform:      win32
+[debug] [2022-09-11T08:27:58.377Z] Node Version:  v16.13.2
+[debug] [2022-09-11T08:27:58.378Z] Time:          Sun Sep 11 2022 13:57:58 GMT+0530 (India Standard Time)
+[debug] [2022-09-11T08:27:58.378Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-11T08:27:58.477Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-11T08:27:58.478Z] > authorizing via signed-in user (ansh.official03@gmail.com)
+[debug] [2022-09-11T08:27:58.478Z] [iam] checking project whatsapp-clone-c57de for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-11T08:27:58.482Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions [none]
+[debug] [2022-09-11T08:27:58.482Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions x-goog-quota-user=projects/whatsapp-clone-c57de
+[debug] [2022-09-11T08:27:58.483Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-11T08:28:00.251Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions 200
+[debug] [2022-09-11T08:28:00.251Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/whatsapp-clone-c57de:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-11T08:28:00.252Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/whatsapp-clone-c57de/serviceAccounts/whatsapp-clone-c57de@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-09-11T08:28:00.252Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/whatsapp-clone-c57de/serviceAccounts/whatsapp-clone-c57de@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-09-11T08:28:01.964Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/whatsapp-clone-c57de/serviceAccounts/whatsapp-clone-c57de@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-09-11T08:28:01.964Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/whatsapp-clone-c57de/serviceAccounts/whatsapp-clone-c57de@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-09-11T08:28:01.965Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-c57de [none]
+[debug] [2022-09-11T08:28:02.870Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-c57de 200
+[debug] [2022-09-11T08:28:02.871Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/whatsapp-clone-c57de {"projectId":"whatsapp-clone-c57de","projectNumber":"754277755178","displayName":"whatsapp-clone","name":"projects/whatsapp-clone-c57de","resources":{"hostingSite":"whatsapp-clone-c57de","realtimeDatabaseInstance":"whatsapp-clone-c57de-default-rtdb","storageBucket":"whatsapp-clone-c57de.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_5afccab8-217f-489d-978c-53b563c30595"}
+[info] 
+[info] === Deploying to 'whatsapp-clone-c57de'...
+[info] 
+[info] i  deploying firestore, functions, hosting 
+[debug] [2022-09-11T08:28:03.220Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:371:5)
+    at validateString (node:internal/validators:119:11)
+    at Object.join (node:path:429:7)
+    at Config.path (C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:123:45)
+    at getChildEnvironment (C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:51:49)
+    at runTargetCommands (C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:72:14)
+    at C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:124:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async chain (C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:33:9)
+    at async deploy (C:\Users\Princ\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:67:5)
+[error] 
+[error] Error: An unexpected error has occurred.
